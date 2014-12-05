@@ -1,0 +1,13 @@
+/* Minimalist font of choice */
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+/* HTML & body Styling */
+html, body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.option .icon img {
+  height: 150px;
+}
