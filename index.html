@@ -2,8 +2,16 @@
 <html>
 <head>
   <title>Switchat Signup</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <meta name="viewport" content="width=device-width, minimal-ui, initial-scale=1, maximum-scale=1, user-scalable=0">
   <!-- CSS -->
   <link rel="stylesheet" href="main.css" type="text/css" />
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <!-- Javascript -->
+  <script type="text/javascript" src="main.js"></script>
 </head>
 
   <body>
@@ -18,28 +26,28 @@
 <!-- SECTION ONE -->
     <div class="container">
       <div class="section">
-        <div class="img-container">
+        <div class="img-container" id="laptop">
           <img src="icons/laptop.png">
         </div>
         <h1>Laptop</h1>
       </div>
 <!-- SECTION TWO -->
       <div class="section">
-        <div class="img-container">
-          <img src="icons/iphone.png">
-        </div>
-        <h1>iPhone</h1>
+        <a href="ios.html">
+          <div class="img-container" id="mobile">
+            <img src="icons/iphone.png">
+          </div>
+        </a>
+        <h1>iPhone / iPad</h1>
       </div>
     </div>
-<!-- SECTION THREE -->
-    <div class="container">
-      <div class="section">
-        <div class="img-container">
-          <img src="icons/ipad.png">
-        </div>
-        <h1>iPad</h1>
-      </div>
-    </div>
+  </div>
+
+  <!-- Laptop Modal -->
+  <div class="modal">
+    <div class="header">Just go Here:</div>
+    <div class="body">http://</div>
+    <div class="footer">Help</div>
   </div>
 
 <!-- Credits -->

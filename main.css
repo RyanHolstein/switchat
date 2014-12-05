@@ -174,7 +174,7 @@ form input {
   width: 100%;
   text-align: left;
   color: white;
-  background-color: #446CB3;
+  background-color: #89C4F4;
   overflow: hidden;
 }
 .slide h1 {
@@ -249,6 +249,8 @@ form input {
   border: 2px solid white;
   border-radius: 50%;
   transition: all .5s;
+  height: 150px;
+  width: 150px;
 }
 #whatido .container img:hover {
   border-radius: 0%;
