@@ -81,7 +81,8 @@ a:hover {
 .section {
   text-align: center;
   display: inline-block;
-  width: 300px;
+  width: 90%;
+  margin-bottom: 2%;
 }
 .section img {
   height: 125px;
@@ -106,19 +107,6 @@ a:hover {
   -ms-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   transform: rotateY(180deg);
-}
-
-/* Image Parallax Sections Styling*/
-section .section {
-  font-size: 1.25em;
-  font-weight: 300;
-  line-height: 2em;
-  color:white;
-  margin-top: 10%;
-  width: 75%;
-  text-shadow: 1px 1px 1px #000;
-  -moz-text-shadow: 1px 1px 1px #000;
-  -webkit-text-shadow: 1px 1px 1px #000;
 }
 
 .footer {
